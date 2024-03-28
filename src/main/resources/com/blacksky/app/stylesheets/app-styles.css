@@ -1,0 +1,78 @@
+.root {
+    -fx-background-color: transparent;
+}
+.background-transparent {
+    -fx-background-color: transparent;
+}
+.set-server-info-button {
+    -fx-background-color: #09B200;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-padding: 5px 13px;
+    -fx-background-radius: 20px;
+    -fx-cursor: hand;
+}
+.set-server-info-button:hover {
+    -fx-effect: dropshadow( three-pass-box , #09B200 ,16,-10,0,0 );
+}
+.left-bar {
+    -fx-border-color: #C8C8C8;
+}
+.top-bar {
+    -fx-border-color: #C8C8C8;
+    -fx-background-color: transparent;
+}
+.server-status-bulb {
+    -fx-fill: #0CC800;
+    -fx-font-scale: 0px;
+}
+.message-box {
+    /*-fx-background-color: white;*/
+    -fx-text-box-border: transparent;
+    -fx-background-color: white;
+}
+.message-box:focused {
+    -fx-highlight-text-fill: white;
+    -fx-highlight-fill: #0CC800;
+    /*-fx-faint-focus-color: #0CC800;*/
+    -fx-border-color: #0CC800;
+}
+.send-button {
+    -fx-border-color: #0CC800;
+    -fx-border-width: 2px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-cursor: hand;
+    -fx-background-color: white;
+}
+.send-button:hover {
+    -fx-effect: dropshadow( three-pass-box , #0CC800 ,16,-10,0,0 );
+}
+.left-border-black {
+    -fx-border-color: #ABABAB;
+    -fx-border-width: 0 0 0 1px;
+}
+.scroll-pane {
+    -fx-border-color: #C8C8C8;
+}
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+.receiver-numbers {
+    -fx-text-fill: #00B9A5;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+.receiver-numbers-wrapper {
+    -fx-min-width: 130px;
+    -fx-min-height: 40px;
+    -fx-border-color: #00B9A5;
+    -fx-background-color: white;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-cursor: hand;
+}
+.receiver-numbers-wrapper:hover {
+    -fx-effect: dropshadow( three-pass-box , #00B9A5 ,16,-10,0,0 );
+}
